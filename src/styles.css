@@ -1,0 +1,72 @@
+/* styles.css */
+
+.quote-container {
+    margin: 20px;
+  }
+  
+  .quote {
+    border-left: 5px solid #333;
+    padding-left: 10px;
+  }
+  
+  .quote-text {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .quote-author {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  /* styles.css */
+
+.homepage-container {
+  background-color: #1f1f1f; /* Dark background color outside the box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+
+.quote-box {
+  border: 2px solid #333; /* Dark border */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Bottom shadow */
+  background-color: #fff; /* Box background color */
+  padding: 20px;
+  max-width: 400px; /* Adjust as needed */
+  width: 100%;
+}
+
+/* Add more styles for the quote text and author if necessary */
+/* styles.css */
+
+.homepage-container {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.homepage-container.loaded {
+  opacity: 1;
+}
+/* styles.css */
+
+.next-button {
+  background: linear-gradient(to bottom, #4c4c4c, #333);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.next-button:hover {
+  background: linear-gradient(to bottom, #333, #4c4c4c);
+}
+
+.quote-container {
+  margin-bottom: 20px;
+}
