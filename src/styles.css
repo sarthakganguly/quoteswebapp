@@ -61,6 +61,7 @@
   padding: 10px 20px;
   margin-top: 10px;
   transition: background 0.3s ease;
+  float: right; /* Align the button to the right */
 }
 
 .next-button:hover {
@@ -70,3 +71,30 @@
 .quote-container {
   margin-bottom: 20px;
 }
+/* styles.css */
+
+/* styles.css */
+
+.twitter-button {
+  background-image: url('twitter-icon.png');
+  background-size: 40%; /* Ensure the icon fits inside the button */
+  background-repeat: no-repeat;
+  background-position: center; 
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 20px 30px;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+  float: left; /* Align the button to the right */
+}
+
+.twitter-button:hover {
+  opacity: 0.8;
+  
+}
+
+/* Adjust the width, height, and other properties as needed */
+
